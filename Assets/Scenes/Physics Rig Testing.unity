@@ -236,7 +236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346323455}
   m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -810,7 +810,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709118321}
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1205,7 +1205,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 821887232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1422,8 +1422,8 @@ MonoBehaviour:
     m_Bits: 1
   body: {fileID: 1982319316809282853}
   otherFoot: {fileID: 1686637762}
-  speed: 4
-  stepDistance: 0.2
+  speed: 5
+  stepDistance: 0.3
   stepLength: 0.2
   sideStepLength: 0.1
   stepHeight: 0.3
@@ -2130,8 +2130,8 @@ MonoBehaviour:
     m_Bits: 1
   body: {fileID: 1982319316809282853}
   otherFoot: {fileID: 1258426033}
-  speed: 4
-  stepDistance: 0.2
+  speed: 5
+  stepDistance: 0.3
   stepLength: 0.2
   sideStepLength: 0.1
   stepHeight: 0.3
@@ -4204,7 +4204,7 @@ MonoBehaviour:
     ikTarget: {fileID: 307260310}
     trackingPositionOffset: {x: 0, y: 0, z: 0}
     trackingRotationOffset: {x: 0, y: 0, z: 0}
-  headBodyPositionOffset: {x: 0, y: -0.54, z: 0}
+  headBodyPositionOffset: {x: 0, y: -0.65, z: 0}
   headBodyYawOffset: 0
 --- !u!4 &5769359226693600680
 Transform:
